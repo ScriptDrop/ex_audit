@@ -15,7 +15,10 @@ defmodule ExAudit.Mixfile do
       source_url: "https://github.com/zenneriot/ex_audit",
       package: [
         licenses: ["MIT"],
-        maintainers: ["Moritz Schmale <ms@zenner-iot.com>"],
+        maintainers: [
+          "Moritz Schmale <ms@zenner-iot.com>",
+          "Herman Singh <kartstig@gmail.com>"
+        ],
         links: %{
           "GitHub" => "https://github.com/zenneriot/ex_audit",
           "Documentation" => "https://hexdocs.pm/ex_audit"
