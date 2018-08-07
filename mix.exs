@@ -51,9 +51,10 @@ defmodule ExAudit.Mixfile do
   defp deps do
     [
       {:ecto, "~> 2.1"},
-      {:postgrex, "~> 0.13.3", only: :test},
       {:excoveralls, "~> 0.7", only: :test},
-      {:ex_doc, "~> 0.16", runtime: false, only: :dev}
+      {:ex_doc, "~> 0.16", runtime: false, only: :dev},
+      {:jiffy, "~> 0.15.2"},
+      {:postgrex, "~> 0.13.3", only: :test}
     ]
   end
 end
