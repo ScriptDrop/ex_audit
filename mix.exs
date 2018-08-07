@@ -6,7 +6,7 @@ defmodule ExAudit.Mixfile do
       description: "Ecto auditing library that transparently tracks changes and can revert them",
       app: :ex_audit,
       version: "0.4.1",
-      elixir: "~> 1.5",
+      elixir: "~> 1.6.3",
       start_permanent: Mix.env == :prod,
       deps: deps(),
       elixirc_paths: paths(Mix.env),
